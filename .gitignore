@@ -213,3 +213,46 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+# OS generated files #
+######################
+*.lnk
+/*.lnk
+Shortcut.lnk
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+.project
+.git
+# PHP Storm generated files #
+######################
+.idea/
+# Our Local Development Wordpress files #
+#########################################
+/content/uploads
+developwp
+/config/sensitive.rb
+# WP Skeleton Ignore #
+######################
+/shared
+/local-config.php
+/sql-dump-*.sql
+/db-sync
+/content/upgrade/
+/content/upgrade/*
+/content/themes/advanced-newspaper/cache/*
+content/themes/advanced-newspaper/cache/*
+
+# The Local htaccess File #
+###########################
+/wp/.htaccess
+
+# Other Obscure Files  #
+########################
+/content/db.php
+config/dbsynclocal.php
