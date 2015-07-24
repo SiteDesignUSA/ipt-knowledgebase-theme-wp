@@ -319,5 +319,5 @@ require get_template_directory() . '/inc/class-ipt-kb-popular-widget.php';
  * Load the bbPress functions
  */
 if ( function_exists( 'bbpress' ) ) {
-	require get_template_directory() . '/inc/bbpress.php';
+	require get_stylesheet_directory() . '/inc/bbpress.php';
 }
